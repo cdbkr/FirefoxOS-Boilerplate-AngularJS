@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "name": "Firefox Boilerplate AngularJS",
-  "description": "A simple boilerplate for Firefox, using AngularJS",
+  "name": "FirefoxOS Boilerplate AngularJS",
+  "description": "A simple boilerplate for FirefoxOS, using AngularJS",
   "launch_path": "/index.html",
   "icons": {
     "16":  "/img/icons/icon_16.png",
@@ -20,7 +20,7 @@
   "installs_allowed_from": ["*"],
   "locales": {
     "en": {
-      "description": "A simple boilerplate for Firefox, using AngularJS",
+      "description": "A simple boilerplate for FirefoxOS, using AngularJS",
       "developer": {
           "name": "Francesco Vitullo",
           "url": "http://www.francescovitullo.com"
