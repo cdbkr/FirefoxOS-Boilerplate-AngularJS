@@ -13,7 +13,7 @@ This boilerplate is using:
 Version 1.2.0-rc.3
 
 <h1>License</h1>
-Apache License 2.0
+The MIT License (MIT)
 Copyright 2014 Francesco Paolo Vitullo
 
 
