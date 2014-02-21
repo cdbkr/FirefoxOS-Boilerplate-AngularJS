@@ -1,4 +1,4 @@
-Firefox-Boilerplate-AngularJS
+FirefoxOS-Boilerplate-AngularJS
 =============================
 
 A Firefox boilerplate using AngularJS. This is a boilerplate useful when developing applications for FirefoxOS.
