@@ -29,27 +29,8 @@
   padding: 0;
 }
 
-#container{
-  background-color: #000000
-}
 
 ul span{
   color:#004D91;
 }
 
-#test_container{
-  padding:0 0;
-  height:100%;
-  width: 100%;
-  background-color: #DEDCDD;
-}
-
-div.all_container{
-  padding:1rem;
-}
-progress {
-  width: 100%;
-  background-color: #ABABAB;
-  border: 0;
-  height: 18px;
-}
