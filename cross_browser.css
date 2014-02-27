@@ -148,15 +148,6 @@ section[role="region"]:target {
   -webkit-transform: translateX(80%);
 }
 
-#drawer {
-  height: 100%;
-}
-
-#drawer div[role="main"] {
-  background: #fff;
-  height: 100%;
-}
-
 section[data-type="sidebar"] > header menu[type="toolbar"] a, 
 section[data-type="sidebar"] > header menu[type="toolbar"] button {
   box-sizing: border-box;
