@@ -10,11 +10,12 @@
   <link rel="stylesheet" href="./css/app.css"/>
 
 
-  <link rel="stylesheet" href="./css/style/headers.css">
+  <link href="./css/style/headers.css" rel="stylesheet" type="text/css">
+  <link href="./css/style/drawer.css" rel="stylesheet" type="text/css">
+
 
   <link rel="stylesheet" href="./css/style/buttons.css">
-  <link rel="stylesheet" href="./css/style_unstable/scrolling.css">
-  <link rel="stylesheet" href="./css/style_unstable/progress_activity.css">
+
 
 
   <!-- Transitions -->
@@ -180,9 +181,25 @@
 <body ng-controller="AppController">
 
   <section id="index" data-position="current">
-    
-    <section id="drawer" role="region" myone="">
+
+    <section data-type="sidebar">
+      <header>
+        <menu type="toolbar">
+          <a href="#content"><span class="icon icon-add">add</span></a>
+        </menu>
+        <h1>Drawer FirefoxOS Boilerplate</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="#pageone">Page One</a></li>
+          <li><a href="#pagetwo">Page Two</a></li>
+        </ul>
+      </nav>
+    </section>
+    <section id="drawer" role="region" data-show-drawer="{{showDrawer}}">
       <header class="fixed">
+        <a href="#content"><span class="icon icon-menu">hide sidebar</span></a>
+        <a ng-click="ctrlDrawer()"><span class="icon icon-menu">show sidebar</span></a>
         <h1 id="title_header">FirefoxOS n AngularJS</h1>
       </header>
       <article class="content scrollable header">
